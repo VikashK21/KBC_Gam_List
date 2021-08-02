@@ -4,7 +4,8 @@ f=["A: Chess                       B: Carrom","A: PhD Degree                  D:
 a=["A","D","B","C","B","A","B","A","C","C","B","A","D","D","C","A"]
 r=[1000,2000,3000,5000,"10,000","20,000","40,000","80,000","1,60,000","3,20,000","6,40,000","12,50,000","25,00,000","50,00,000","1 Crore"," 7 Crore"]
 t=0
-sto=0
+sto=00
+user=input('Enter you name : ')
 print('                   **WELCOME TO KBC*         \n                   Kaun Banega Karorpati           \n\n\n*You have only one life line - 50:50 (use ×2)\nTo Quit the game - X or x\n')
 for i in range(len(q)):
     if i==10:
